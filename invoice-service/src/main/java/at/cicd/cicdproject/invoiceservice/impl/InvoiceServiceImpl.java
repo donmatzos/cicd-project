@@ -1,6 +1,6 @@
 package at.cicd.cicdproject.invoiceservice.impl;
 
-import at.cicd.cicdproject.impl.model.Invoice;
+import at.cicd.api.Invoice;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

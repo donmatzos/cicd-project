@@ -1,6 +1,6 @@
 package at.cicd.cicdproject.contactservice.impl;
 
-import at.cicd.cicdproject.impl.model.base.AbstractContact;
+import at.cicd.api.base.AbstractContact;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;

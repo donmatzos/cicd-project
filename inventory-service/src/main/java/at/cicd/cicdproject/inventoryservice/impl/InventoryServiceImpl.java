@@ -1,6 +1,6 @@
 package at.cicd.cicdproject.inventoryservice.impl;
 
-import at.cicd.cicdproject.impl.model.InventoryItem;
+import at.cicd.api.InventoryItem;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

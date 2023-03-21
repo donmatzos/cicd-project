@@ -1,7 +1,5 @@
 package at.cicd.cicdproject.orderservice.util;
 
-
-
 import at.cicd.api.Address;
 import at.cicd.api.Item;
 import at.cicd.api.Order;
