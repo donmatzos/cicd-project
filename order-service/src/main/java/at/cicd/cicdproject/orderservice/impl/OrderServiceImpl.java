@@ -5,15 +5,15 @@ import at.cicd.api.Order;
 import at.cicd.api.enumeration.CalculationType;
 import at.cicd.api.output.OrderCalculationResult;
 import at.cicd.cicdproject.orderservice.util.OrderCalculationUtils;
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.math.BigDecimal;
 import java.util.InputMismatchException;
 import java.util.List;
 
-@Component("orderService")
+@RestController("orderService")
 @RequestMapping("/order")
 public class OrderServiceImpl implements OrderService
 {

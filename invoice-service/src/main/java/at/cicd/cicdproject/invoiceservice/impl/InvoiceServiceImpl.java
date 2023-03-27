@@ -1,11 +1,11 @@
 package at.cicd.cicdproject.invoiceservice.impl;
 
 import at.cicd.api.Invoice;
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
-@Component("invoiceService")
+@RestController("invoiceService")
 @RequestMapping("/invoice")
 public class InvoiceServiceImpl implements InvoiceService
 {

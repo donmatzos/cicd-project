@@ -9,9 +9,11 @@ at/cicd/api/Customer.class
 at/cicd/api/InventoryItem$InventoryItemBuilder.class
 at/cicd/api/Price$PriceBuilder.class
 at/cicd/api/output/OrderCalculationResult.class
+at/cicd/api/Stock.class
 at/cicd/api/Address.class
 at/cicd/api/enumeration/ContactType.class
 at/cicd/api/Supplier.class
+at/cicd/api/Stock$StockBuilder.class
 at/cicd/api/Item.class
 at/cicd/api/enumeration/CalculationType.class
 at/cicd/api/util/BigDecimalUtils.class
