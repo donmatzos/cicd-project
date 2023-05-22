@@ -11,7 +11,7 @@
     <groupId>at.cicd.cicdproject</groupId>
     <artifactId>order-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>order-service</name>
+    <name>Order Service</name>
     <description>order-service</description>
     <properties>
         <java.version>17</java.version>
