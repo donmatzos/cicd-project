@@ -1,4 +1,4 @@
-name: Test order-service
+name: Test Java
 
 on:
   push:
@@ -12,12 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Build with Maven
-        working-directory: ./order-service
         run: mvn clean package
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Test with Maven
-        working-directory: ./order-service
         run: mvn test
