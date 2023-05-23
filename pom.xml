@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>at.cicd.cicdproject</groupId>
+    <artifactId>services-complete</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>All Services</name>
+    <description>Collection of all services</description>
+
+    <modules>
+        <module>contact-service</module>
+        <module>inventory-service</module>
+        <module>invoice-service</module>
+        <module>order-service</module>
+    </modules>
+
+</project>

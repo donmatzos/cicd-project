@@ -11,16 +11,24 @@
     <groupId>at.cicd.cicdproject</groupId>
     <artifactId>invoice-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>invoice-service</name>
+    <name>Invoice Service</name>
     <description>invoice-service</description>
     <properties>
         <java.version>17</java.version>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
-            <groupId>at.cicd.api</groupId>
+            <groupId>com.github.donmatzos</groupId>
             <artifactId>cicd-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
