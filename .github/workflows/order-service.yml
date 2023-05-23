@@ -11,13 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: cd order-service 
       - name: Build with Maven
+        working-directory: ./order-service
         run: mvn clean package
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: cd order-service 
       - name: Test with Maven
+        working-directory: ./order-service
         run: mvn test
