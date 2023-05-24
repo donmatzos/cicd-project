@@ -7,15 +7,17 @@ on:
     branches: [ "github-actions" ]
 
 jobs:
+  create-environment:
+    uses: ./.github/workflows/createJavaEnv.yml
   build:
     runs-on: ubuntu-latest
-    uses: ./.github/workflows/createJavaEnv.yml
+    needs: create-environment
     steps:
       - name: Build with Maven
         run: mvn clean package
   test:
     runs-on: ubuntu-latest
-    uses: ./.github/workflows/createJavaEnv.yml
+    needs: create-environment
     steps:
       - name: Test with Maven
         run: mvn test
