@@ -8,6 +8,7 @@ on:
 
 jobs:
     create-environment:
+        runs-on: ubuntu-latest
         steps: 
           - uses: ./.github/workflows/createJavaEnv.yml
           - uses: actions/checkout@v3
