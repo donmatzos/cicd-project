@@ -8,8 +8,8 @@ on:
 
 jobs:
     create-environment:
-        uses: ./.github/workflows/createJavaEnv.yml
         steps: 
+          - uses: ./.github/workflows/createJavaEnv.yml
           - uses: actions/checkout@v3
     build:
         runs-on: ubuntu-latest
