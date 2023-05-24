@@ -16,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cicd-api" target="17" />
+      <module name="cicd-project" target="1.5" />
       <module name="contact-service" target="17" />
       <module name="inventory-service" target="17" />
       <module name="invoice-service" target="17" />
