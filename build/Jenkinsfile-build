@@ -4,4 +4,4 @@ def config = [
     imgName: 'cicd-application'
 ]
 
-javaPipeline(config)
+parameterizedTestPipeline(config)
