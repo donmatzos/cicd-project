@@ -1,3 +1,7 @@
 @Library('jenkins-shared-library@main') _
 
-javaTestPipeline()
+def config = [
+    imgName: 'cicd-application'
+]
+
+javaPipeline(config)
